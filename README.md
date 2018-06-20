@@ -14,3 +14,5 @@ $ go run *.go
 
 ## Reference
 [Open source slack API package](https://github.com/nlopes/slack)
+
+[Open source interactive message](https://github.com/slackapi/node-slack-interactive-messages)

@@ -11,11 +11,21 @@ func main() {
 		panic(err)
 	}
 
-	err = sendMessage(user, "You are a pretty princess!")
-	if err != nil {
-		panic(err)
-	}
+	//err = sendMessage(user, "You are a pretty princess!")
+	//if err != nil {
+	//	panic(err)
+	//}
 
-	go rtm.ManageConnection()
-	handleMessage()
+	//var mode string
+	//fmt.Println("Please choose the mode: handle or interactive")
+	//fmt.Scan(&mode)
+	//
+	//if mode == "handle" {
+	//	go rtm.ManageConnection()
+	//	handleMessage()
+	//} else if mode == "interactive" {
+		sendMessage(user, "Am I beautiful??")
+	//} else {
+	//	fmt.Println("no mode selected")
+	//}
 }

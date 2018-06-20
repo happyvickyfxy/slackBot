@@ -11,6 +11,7 @@ func handleMessage() {
 		switch ev := msg.Data.(type) {
 		case *slack.HelloEvent:
 			// Ignore hello
+			fmt.Println("Hello")
 
 		case *slack.ConnectedEvent:
 			fmt.Println("Infos:", ev.Info)
